@@ -3,9 +3,15 @@
 	padding: 0;
 }
 
+.body{
+
+margin: 0;
+padding: 0;
+
+}
 .main {
 	width: 100%;
-	height: 1000000vh;
+	height: 12000px;
 	background-color: #F6FAB9;
 }
 
@@ -18,6 +24,8 @@
 .Foto {
 	float:left;
 	background-color: #F6FAB9;
+	width: 1px;
+	height: 1px;
 }
 
 .navigator {
@@ -32,7 +40,10 @@
 
 	display: flex;
 	list-style: none;
-        background-color: #F6FAB9;
+	background-color: #F6FAB9;
+	margin: 0;
+	padding: 0;
+	align-items: center;
 
 
 }
@@ -44,4 +55,12 @@ padding: 10px;
 border-style: solid;
 border-width: 0.5px;
 background-color: #F6FAB9;
+
+}
+
+@media (max-width: 900px) {
+
+	.navigator{
+		flex-direction: column;
+	}
 }
