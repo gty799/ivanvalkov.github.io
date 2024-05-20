@@ -24,8 +24,22 @@
   display: flex;
   justify-content: space-between;
 
+
 }
 
+.navigator>nav>ul {
+
+	display: flex;
+	list-style: none;
 
 
+}
 
+.navigator>nav>ul>li>a {
+
+display: block;
+padding: 10px;
+border-style: solid;
+border-width: 0.5px;
+
+}
