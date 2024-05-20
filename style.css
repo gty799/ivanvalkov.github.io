@@ -23,6 +23,7 @@
 .navigator {
   display: flex;
   justify-content: space-between;
+  background-color: #F6FAB9;
 
 
 }
@@ -31,6 +32,7 @@
 
 	display: flex;
 	list-style: none;
+        background-color: #F6FAB9;
 
 
 }
@@ -41,5 +43,5 @@ display: block;
 padding: 10px;
 border-style: solid;
 border-width: 0.5px;
-
+background-color: #F6FAB9;
 }
