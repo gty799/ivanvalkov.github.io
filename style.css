@@ -64,3 +64,9 @@ background-color: #F6FAB9;
 		flex-direction: column;
 	}
 }
+
+.navbar-brand img {
+
+width: 20px;
+
+}
